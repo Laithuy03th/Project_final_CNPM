@@ -1,12 +1,11 @@
-const wrapper = document.querySelector('.wrapper');
-const registerLink = document.querySelector('.register-link');
-const loginLink = document.querySelector('.login-link');
+const container = document.getElementById('container');
+const registerBtn = document.getElementById('register');
+const loginBtn = document.getElementById('login');
 
-registerLink.onclick = () => {
-    wrapper.classList.add('active');
-}
+registerBtn.addEventListener('click', () => {
+    container.classList.add("active");
+});
 
-loginLink.onclick = () => {
-    wrapper.classList.remove('active');
-}
-
+loginBtn.addEventListener('click', () => {
+    container.classList.remove("active");
+});
