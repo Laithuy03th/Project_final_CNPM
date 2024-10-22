@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // Kiểm tra nếu phần tử tồn tại
     if (circle) {
         circle.addEventListener('click', () => {
-            window.location.href = "E:/CNPM/Project/Code/Thuy/tai_khoan/account.html"; // Đường dẫn đến trang mới
+            window.location.href = "E:/CNPM/Project/Code/Thuy/account/account.html"; // Đường dẫn đến trang mới
         });
     } else {
         console.error('Phần tử với ID "circle" không tồn tại.');
