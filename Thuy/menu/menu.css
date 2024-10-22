@@ -1,0 +1,34 @@
+/* Đặt toàn bộ màn hình */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Khung tròn ở góc trên cùng bên trái */
+.circle-container {
+    position: fixed;
+    top: 20px; /* Khoảng cách từ trên cùng */
+    left: 20px; /* Khoảng cách từ bên trái */
+    width: 100px; /* Đường kính khung tròn */
+    height: 100px; /* Đường kính khung tròn */
+    background-color: #4CAF50; /* Màu nền của khung tròn */
+    border-radius: 50%; /* Tạo hình tròn */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng cho khung tròn */
+}
+
+/* Nội dung chính của trang */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+/* Tiêu đề chính */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
