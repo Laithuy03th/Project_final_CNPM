@@ -1,7 +1,7 @@
 const container = document.getElementById('container');
 const registerBtn = document.getElementById('register'); // tên nút được đặt tên
 const loginBtn = document.getElementById('login'); // tên nút cũng được đặt tên
-
+// su kien chuyen canh
 registerBtn.addEventListener('click', () => { // sử dụng nút được đặt tên ở bên trên
     container.classList.add("active");
 });
@@ -9,6 +9,9 @@ registerBtn.addEventListener('click', () => { // sử dụng nút được đặ
 loginBtn.addEventListener('click', () => { // sử dụng nút được đặt tên ở bên trên
     container.classList.remove("active");
 });
+
+// su kien dang ki
+
 const signInBtn = document.getElementById('sign_in');
 
 signInBtn.addEventListener('click', () => {
